@@ -2,7 +2,37 @@
   text-align: center;
 }
 
-.App-logo {
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* flex-flow: wrap; */
+  width: 100%;
+}
+
+.middle_panel {
+  /* display: grid; */
+  /* grid-template-columns: repeat(6, 1fr); */
+  /* background-color: black; */
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+  height: 80px;
+}
+
+.brick {
+  font-size: 4vh;
+  color: white;
+  /* background: gray; */
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+  height: 60px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +65,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
